@@ -1,0 +1,327 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+
+.container-header {
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 76%;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+
+  .logo-text img {
+    width: 100px;
+    height: 47px;
+  }
+
+  .catalogy-choose {
+    display: flex;
+    gap: 20px;
+
+    p {
+      font-weight: bolder;
+    }
+
+    p:hover {
+      cursor: pointer;
+      color: #FD6E0A;
+      transition: .5s ease;
+    }
+  }
+
+  .btn-hire button {
+    background-color: #FD6E0A;
+    border-radius: 20px;
+    color: white;
+    width: 122px;
+    height: 47px;
+    font-size: 20px;
+    border: 1px solid #FD6E0A;
+    font-weight: bold;
+  }
+
+  .btn-hire button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: #FD6E0A;
+    transition: .5s ease;
+  }
+
+  .margin {
+    margin-top: 20px;
+  }
+}
+
+.end-box {
+  background-color: rgb(236, 236, 236);
+  width: 100%;
+  height: 90px;
+
+  h4 {
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  a {
+    color: #FD6E0A;
+    text-decoration: none;
+  }
+}
+
+.page-person {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+
+  .box-name-person {
+    margin: 120px 0px;
+
+    .textOne {
+      color: #FD6E0A;
+    }
+
+    .textTwo {
+      font-size: 80px;
+      color: #15295F;
+    }
+
+    .textThree {
+      font-size: 25px;
+      color: #15295F;
+    }
+
+    p {
+      margin-top: 30px;
+      color: gray;
+      font-size: 15px;
+    }
+
+    .btn-orange {
+      margin: 40px 0px;
+      gap: 20px;
+
+      .One {
+        background-color: #FD6E0A;
+        border-radius: 30px;
+        color: white;
+        width: 182px;
+        height: 47px;
+        font-size: 20px;
+        border: 2px solid #FD6E0A;
+      }
+
+      .One:hover {
+        cursor: pointer;
+        background-color: transparent;
+        color: #FD6E0A;
+        transition: .5s ease;
+      }
+
+      .Two {
+        background-color: transparent;
+        border-radius: 30px;
+        color: #FD6E0A;
+        width: 132px;
+        height: 47px;
+        font-size: 20px;
+        border: 2px solid #FD6E0A;
+      }
+
+      .Two:hover {
+        cursor: pointer;
+        background-color: #FD6E0A;
+        color: #fff;
+        transition: .5s ease;
+      }
+    }
+
+  }
+
+}
+
+.box-coponet {
+  margin: 20px 0px;
+  display: flex;
+  gap: 60px;
+
+  .box-service {
+    h2 {
+      color: #FD6E0A;
+    }
+
+    h1 {
+      color: #15295F;
+    }
+  }
+
+  .border-btn {
+    display: flex;
+    gap: 20px;
+    margin: 30px 0px;
+
+    .btn-rigth {
+      background-color: #CDCDCD;
+      height: 50px;
+      width: 50px;
+      border-radius: 40px;
+      text-align: center;
+      padding: 12px 0px;
+      font-size: 20px;
+    }
+
+    .btn-left {
+      background-color: #CDCDCD;
+      height: 50px;
+      width: 50px;
+
+      border-radius: 40px;
+      text-align: center;
+      padding: 12px 0px;
+      font-size: 20px;
+    }
+  }
+
+  .box-all {
+    margin-left: 100px;
+    gap: 20px;
+    display: flex;
+
+    .box-catalog {
+      background-color: rgb(241, 241, 241);
+      width: 248px;
+      height: 266px;
+
+      .border {
+        background-color: aqua;
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+        margin: 0px 70px;
+        box-shadow: 20px black;
+      }
+
+      .text-box {
+        text-align: center;
+        margin: 10px 0px;
+
+        h1 {
+          color: #15295F;
+        }
+
+        p {
+          color: gray;
+        }
+      }
+    }
+  }
+}
+
+.page-pictere {
+
+  center {
+    color: #FD6E0A;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .name-record {
+    color: #15295F;
+  }
+
+  .choose-marketing {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-weight: bold;
+    margin: 20px 0px;
+    cursor: pointer;
+  }
+
+  p:hover {
+    color: #FD6E0A;
+    transition: .5s ease;
+  }
+}
+
+.main-grid-pictere {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 30px;
+
+  .grid-img {
+    width: 100%;
+  }
+}
+
+.page-teachers {
+  margin: 100px 0px;
+
+  .div_teach {
+    display: flex;
+    gap: 160px;
+  }
+
+  .header-text-btn {
+    display: flex;
+    justify-content: space-between;
+    color: #15295F;
+  }
+
+  .box-about {
+    display: flex;
+    margin: 50px 0px;
+
+    .color-gray {
+      background-color: #f0f0f0;
+      width: 100%;
+    }
+  }
+
+  .header-about {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+    h1 {
+      color: #15295F;
+    }
+  }
+
+  .about {
+    padding: 20px;
+    color: gray;
+  }
+
+  .name-teacher {
+    color: #15295F;
+    padding: 20px;
+
+    p {
+      color: gray;
+      font-size: 20px;
+    }
+  }
+}
+
+.page-call {
+  display: flex;
+
+  .number {
+    margin: 0px 100px;
+  }
+  .div-input{
+   
+  }
+}
